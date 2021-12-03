@@ -1,0 +1,8 @@
+/*Formatações para a classe de botoes*/
+.botoes {
+    background-color: coral;
+    color: darkgreen;
+    width: 50px;
+    height: 50px;
+    font-size: xx-large;
+}

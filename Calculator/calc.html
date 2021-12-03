@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+        <title>Calculadora</title>
+        <!--Link para o arquivo CSS-->
+		<link rel="stylesheet" type="text/css" href="calc.css" />
+		
+	</head>
+
+	<body>
+
+        <!--Campos para entrada dos números-->
+        Valor 1: <input type="number" id="v1"><br>
+        Valor 2: <input type="number" id="v2">
+
+        <!--Organizando os botões numa tabela 2x2-->
+        <table>
+
+            <tr>
+                <td> <input type="button" value="+" onclick="somar()" class="botoes"> </td>
+                <td> <input type="button" value="-" onclick="subtrair()" class="botoes"> </td>
+            </tr>
+
+            <tr>
+                <td> <input type="button" value="*" onclick="multiplicar()" class="botoes"> </td>
+                <td> <input type="button" value="/" onclick="dividir()" class="botoes"> </td>
+            </tr>
+
+        </table>
+
+        <!--Parágrafo para mostrar o resultado da operação-->
+        <p id="resultado"> Resultado: X </p>
+		
+		<!--Link para o arquivo JavaScript-->
+        <script type = "text/javascript" src="calc.js"></script>
+
+	</body>
+</html>
+
